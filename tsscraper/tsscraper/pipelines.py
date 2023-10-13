@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class SuperPipeline:
+class TsscraperPipeline:
     def process_item(self, item, spider):
         return item
