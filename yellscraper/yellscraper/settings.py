@@ -1,4 +1,4 @@
-# Scrapy settings for tsscraper project
+# Scrapy settings for yellscraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "tsscraper"
+BOT_NAME = "yellscraper"
 
-SPIDER_MODULES = ["tsscraper.spiders"]
-NEWSPIDER_MODULE = "tsscraper.spiders"
+SPIDER_MODULES = ["yellscraper.spiders"]
+NEWSPIDER_MODULE = "yellscraper.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "tsscraper (+http://www.yourdomain.com)"
+#USER_AGENT = "yellscraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "tsscraper.middlewares.TsscraperSpiderMiddleware": 543,
+#    "yellscraper.middlewares.YellscraperSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "tsscraper.middlewares.TsscraperDownloaderMiddleware": 543,
+#    "yellscraper.middlewares.YellscraperDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "tsscraper.pipelines.TsscraperPipeline": 300,
+#    "yellscraper.pipelines.YellscraperPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
